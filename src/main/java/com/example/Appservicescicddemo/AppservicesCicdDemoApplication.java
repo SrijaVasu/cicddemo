@@ -11,7 +11,7 @@ public class AppservicesCicdDemoApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Application successfully deployed to Azure App services using git hub actions.";
+		return "Application successfully deployed to Azure App services using git hub actions..!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(AppservicesCicdDemoApplication.class, args);
